@@ -1,0 +1,40 @@
+.AboutMe {
+    background: linear-gradient(180deg, rgba(171,152,219,1) 41%, rgba(136,94,203,1) 83%);
+    padding-bottom: 5%;
+}
+.AboutMe .Container {
+    display: flex;
+    background-color: #efebfa;
+    border-radius: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.AboutMe .Container .Text {
+    width: 47%;
+    margin-left: 3%;
+    color: black;
+    font-weight: 100;
+    font-size: 23px;
+}
+
+.AboutMe .Container .Text h2 {
+    font-weight: 900;
+    font-size: 46px;
+}
+
+.AboutMe .Container .Photo {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.AboutMe .Container .Photo .Me {
+    width: 50%;
+    max-width:500px;
+    border-radius: 10%;
+}

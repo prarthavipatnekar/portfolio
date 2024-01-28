@@ -1,0 +1,34 @@
+.Home {
+    background: linear-gradient(to bottom, white, rgba(171,152,219,1));
+    height: 100vh; /* 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black; /* Set text color to white or any other contrasting color */
+    text-align: center; /* Center-align text within the container */
+}
+
+.Home .Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home .Container h1 {
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.banner p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+}
