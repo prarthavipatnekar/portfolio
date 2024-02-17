@@ -1,6 +1,7 @@
 .AboutMe {
-    background: linear-gradient(180deg, rgba(171,152,219,1) 41%, rgba(136,94,203,1) 83%);
+    background: White;
     padding-bottom: 5%;
+    margin-top: 5%;
 }
 .AboutMe .Container {
     display: flex;

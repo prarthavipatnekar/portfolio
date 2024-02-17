@@ -8,9 +8,8 @@
 }
 
 .Container hr {
-    left:0;
+    left: 0;
     border: 1px solid;
     position: absolute;
     width: 24px;
-   
 }

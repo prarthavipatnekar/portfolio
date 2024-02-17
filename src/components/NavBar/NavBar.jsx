@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import {Navbar, Nav, Container} from 'react-bootstrap';
 import { useState } from "react";
-import Logo  from '../../assets/logo.png';
+import Logo from '../../assets/logo.png';
+import classes from './NavBar.module.css'; 
 import LinkedIn from '../../assets/linkedInIcon.png';
 import Facebook from '../../assets/logo.png';
 //import { HashLink } from 'react-router-hash-link';
@@ -12,7 +13,6 @@ import Facebook from '../../assets/logo.png';
 
 const NavBar = () => {
     const {activeLink, setActiveLink} = useState('home');
-    const {scrolled, setScrolled} = useState(false);
 
     useEffect(() => {
         const onScroll = () =>{
@@ -33,7 +33,7 @@ const NavBar = () => {
     }
 
     return (
-        <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+        <Navbar expand="lg" className={classes.NavBar}>
           <Container>
             <Navbar.Brand href="#home">
                     <img src={Logo} alt="logo"/>

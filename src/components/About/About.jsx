@@ -1,13 +1,11 @@
-import React from 'react';
 import classes from './About.module.css';
 import Me from './../../assets/myProfile.png'
-import PageHeader from './../PageHeader/PageHeader'
-
+import PageHeader from '../PageHeader/PageHeader';
 
 const About = () => {
     return (
         <div className={classes.AboutMe}>
-            
+            <PageHeader title="About Me" />
             <div className={classes.Container}>
                 <div className={classes.Text}>
                     <h2>Hello, I'm Prarthavi!</h2> <br />
